@@ -24,11 +24,11 @@ steps:
   inputs:
     versionType: 'AutoVersion'
     projectJsonPath: '$(Build.SourcesDirectory)'
-    orchestratorConnection: 'Shubham_Performer'
+    orchestratorConnection: 'UiPath_Dispatcher'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
 - task: UiPathDeploy@5
   inputs:
-    orchestratorConnection: 'Shubham_Performer'
+    orchestratorConnection: 'UiPath_Dispatcher'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
     folderName: 'Prem'
 
