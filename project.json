@@ -1,0 +1,115 @@
+{
+  "name": "RPA_56_DSH_GOPS_AutoPriceChangeInDomesticPO_Dispatcher",
+  "projectId": "b7d5533d-1f09-4d26-86b1-b9123c22f752",
+  "description": "Price Update Dispatcher",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Adidas.Framework.Activities": "2.0.2",
+    "Adidas.SAP.Activities": "3.0.1",
+    "Adidas.ScreenRecording.Activities": "3.0.1",
+    "UiPath.Excel.Activities": "2.24.4",
+    "UiPath.Mail.Activities": "2.0.10",
+    "UiPath.System.Activities": "24.10.6",
+    "UiPath.Testing.Activities": "24.10.4",
+    "UiPath.UIAutomation.Activities": "24.10.6",
+    "UiPath.WebAPI.Activities": "1.21.1"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.5.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\AdidasWorkflowTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a2f0c304-2e61-4388-b2d2-c4292708ffce",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GeneralTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "66a29fbe-e3f0-458b-b4eb-c64b93a6fbab",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4819691e-72cd-4223-b3d9-74010a86c13a",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b7abe36a-0c91-4cbf-a150-87aedce0681b",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "34a25eb9-7998-4a18-a857-e040d7b6ddff",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "901b50b9-f265-429e-9620-c959dc174deb",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9f3c9201-1c73-4cf2-a5c7-6e3827cf93c7",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "564eb1dd-beaa-410d-b4e2-5d8c77c54e18",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": "https://www.flaticon.com/de/kostenloses-icon/adidas_731972"
+  },
+  "targetFramework": "Windows"
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "resources": [
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "row(\"Asset\").ToString",
+          "isExpression": false
+        },
+        "folderPath": {
+          "defaultValue": "row(\"OrchestratorAssetFolder\").ToString",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "queue",
+      "metadata": {
+        "folderPath": {
+          "isExpression": true
+        }
+      }
+    },
+    {
+      "resource": "queue",
+      "metadata": {
+        "folderPath": {
+          "isExpression": true
+        }
+      }
+    }
+  ]
+}
